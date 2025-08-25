@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAEA"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Yemek Adı Girişi -->
+    <EditText
+        android:id="@+id/yemekAdiGirisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yemek Adı" />
+
+    <!-- Malzemeler Girişi -->
+    <EditText
+        android:id="@+id/malzemeGirisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Malzemeler" />
+
+    <!-- Tarif Girişi -->
+    <EditText
+        android:id="@+id/tarifGirisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarif" />
+
+    <!-- Kaydet ve İptal Butonları -->
+
+</LinearLayout>

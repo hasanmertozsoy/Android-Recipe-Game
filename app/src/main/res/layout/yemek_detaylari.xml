@@ -1,0 +1,40 @@
+<android.widget.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAFAEA"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/yemekAdiTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Yemek Adı"
+
+            android:textAlignment="center"
+            android:textColor="#B60909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/malzemelerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Malzemeler"
+            android:textColor="#0B9011"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tarifTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarif"
+            android:textSize="18sp" />
+    </LinearLayout>
+</android.widget.ScrollView>

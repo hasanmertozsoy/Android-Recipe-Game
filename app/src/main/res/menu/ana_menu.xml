@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Yemek Ekle Menü Elemanı -->
+    <item
+        android:id="@+id/yemek_ekle_secenegi"
+        android:title="Yemek Ekle"
+        app:showAsAction="never" />
+
+    <!-- Oyun Menü Elemanı -->
+    <item
+        android:id="@+id/oyun_secenegi"
+        android:title="Oyun"
+        app:showAsAction="never" />
+</menu>
